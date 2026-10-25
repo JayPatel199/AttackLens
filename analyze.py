@@ -1,0 +1,15 @@
+import pandas as pd
+
+df = pd.read_csv("results.csv")
+print("Columns:", list(df.columns))
+print()
+print("Total alerts:", len(df))
+print()
+print("Alerts by severity:")
+print(df["Level"].value_counts())
+print()
+print("Top 10 most common detections:")
+print(df["RuleTitle"].value_counts().head(10))
+print()
+print("Computers with most alerts:")
+print(df["Computer"].value_counts().head(5))

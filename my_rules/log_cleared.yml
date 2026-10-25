@@ -1,0 +1,19 @@
+title: Security Event Log Cleared
+id: 6b1f3a10-1c2d-4e5f-8a90-111111111101
+status: experimental
+description: Detects clearing of the Windows Security event log, used to hide attacker activity
+author: YOUR NAME
+date: 2026/10/25
+ruletype: Hayabusa
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        Channel: Security
+        EventID: 1102
+    condition: selection
+level: high
+tags:
+    - attack.defense-evasion
+    - attack.t1070.001

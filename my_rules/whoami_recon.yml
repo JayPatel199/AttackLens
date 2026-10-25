@@ -1,0 +1,20 @@
+title: Whoami Reconnaissance Command
+id: 6b1f3a10-1c2d-4e5f-8a90-111111111105
+status: experimental
+description: Detects whoami.exe being run, commonly used by attackers to check their privileges
+author: YOUR NAME
+date: 2026/10/25
+ruletype: Hayabusa
+logsource:
+    product: windows
+    category: process_creation
+detection:
+    selection:
+        Channel: Microsoft-Windows-Sysmon/Operational
+        EventID: 1
+        Image|endswith: '\whoami.exe'
+    condition: selection
+level: medium
+tags:
+    - attack.discovery
+    - attack.t1033

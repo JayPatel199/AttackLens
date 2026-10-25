@@ -1,0 +1,19 @@
+title: Failed Logon Attempt
+id: 6b1f3a10-1c2d-4e5f-8a90-111111111103
+status: experimental
+description: Detects a failed logon, which in large numbers may indicate password guessing
+author: YOUR NAME
+date: 2026/10/25
+ruletype: Hayabusa
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        Channel: Security
+        EventID: 4625
+    condition: selection
+level: low
+tags:
+    - attack.credential-access
+    - attack.t1110

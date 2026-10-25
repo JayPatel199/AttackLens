@@ -2,7 +2,7 @@ title: Security Event Log Cleared
 id: 6b1f3a10-1c2d-4e5f-8a90-111111111101
 status: experimental
 description: Detects clearing of the Windows Security event log, used to hide attacker activity
-author: YOUR NAME
+author: Jay Patel
 date: 2026/10/25
 ruletype: Hayabusa
 logsource:

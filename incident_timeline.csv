@@ -1,0 +1,5 @@
+Timestamp,Computer,Level,RuleTitle,MitreTags
+2019-08-03 09:46:48.209+00:00,MSEDGEWIN10,high,HackTool - UACMe Akagi Execution,T1548.002
+2019-08-03 09:46:48.726+00:00,MSEDGEWIN10,high,Bypass UAC Using SilentCleanup Task,T1548.002
+2019-08-03 09:46:48.924+00:00,MSEDGEWIN10,high,Proc Exec (Sysmon Alert),
+2019-08-03 09:46:49.402+00:00,MSEDGEWIN10,high,UAC Bypass Using Disk Cleanup,T1548.002

@@ -2,7 +2,7 @@ title: Whoami Reconnaissance Command
 id: 6b1f3a10-1c2d-4e5f-8a90-111111111105
 status: experimental
 description: Detects whoami.exe being run, commonly used by attackers to check their privileges
-author: YOUR NAME
+author: Jay Patel
 date: 2026/10/25
 ruletype: Hayabusa
 logsource:

@@ -2,7 +2,7 @@ title: User Added To Local Administrators Group
 id: 6b1f3a10-1c2d-4e5f-8a90-111111111104
 status: experimental
 description: Detects a member being added to a local security-enabled group such as Administrators
-author: YOUR NAME
+author: Jay Patel
 date: 2026/10/25
 ruletype: Hayabusa
 logsource:

@@ -2,7 +2,7 @@ title: Failed Logon Attempt
 id: 6b1f3a10-1c2d-4e5f-8a90-111111111103
 status: experimental
 description: Detects a failed logon, which in large numbers may indicate password guessing
-author: YOUR NAME
+author: Jay Patel
 date: 2026/10/25
 ruletype: Hayabusa
 logsource:

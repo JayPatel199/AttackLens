@@ -2,7 +2,7 @@ title: New Service Installed
 id: 6b1f3a10-1c2d-4e5f-8a90-111111111102
 status: experimental
 description: Detects a new Windows service being installed, often used for persistence or lateral movement
-author: YOUR NAME
+author: Jay Patel
 date: 2026/10/25
 ruletype: Hayabusa
 logsource:

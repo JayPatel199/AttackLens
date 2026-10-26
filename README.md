@@ -1,4 +1,4 @@
-# Threat Detection Pipeline
+# AttackLens: MITRE ATT&CK-Mapped Threat Detection Pipeline
 
 A detection pipeline that scans real Windows attack logs with Hayabusa, adds my own custom detection rules, maps every alert to MITRE ATT&CK, and shows the results in a Streamlit dashboard. It also includes a full incident report on one simulated attack.
 
@@ -42,8 +42,8 @@ Other files: [notes.md](notes.md) explains five serious detections (what the att
 
 ## How to run it yourself
 ```bash
-git clone https://github.com/JayPatel199/threat-detection-pipeline.git
-cd threat-detection-pipeline
+git clone https://github.com/JayPatel199/attacklens.git
+cd attacklens
 git clone https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES.git
 ```
 Download Hayabusa 4.2.0 (Linux x64 build) from https://github.com/Yamato-Security/hayabusa/releases into a `hayabusa/` folder, then:

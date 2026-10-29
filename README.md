@@ -2,6 +2,9 @@
 
 A detection pipeline that scans real Windows attack logs with Hayabusa, adds my own custom detection rules, maps every alert to MITRE ATT&CK, and shows the results in a Streamlit dashboard. It also includes a full incident report on one simulated attack.
 
+Part of a series: **AttackLens** (detection, this repo) · [AttackLens Red](https://github.com/JayPatel199/AttackLens-Red) (attack simulation) · [AttackLens Auto](https://github.com/JayPatel199/AttackLens-Auto) (automation)
+
+
 ## Results at a glance
 - **5,388 alerts** produced from the public EVTX-ATTACK-SAMPLES dataset (25 critical, 611 high)
 - **5 custom detection rules** written by me, all of which fired on real attack data (53 hits in total)
